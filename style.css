@@ -1,0 +1,23 @@
+@tailwind base;
+#change_btn2{
+    position: fixed;
+    margin-left: 98%;
+    margin-top: 5px;
+}
+
+#change_btn{
+    position: fixed;
+    margin-left: 94%;
+    margin-top: 5px;
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities{
+    .btn{
+        @apply font-semibold uppercase text-white text-sm bg-indigo-600 px-3 py-2 hover:bg-indigo-400 hover:transition-colors rounded-full;
+    }
+}
